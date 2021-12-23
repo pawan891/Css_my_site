@@ -1,0 +1,135 @@
+body{
+
+  margin: 0;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+
+}
+.myself{
+  font-size: 3.75rem;
+  margin: 0 auto 0 auto;
+  color:  #550A35;
+  font-family: Papyrus,fantasy;
+}
+.whomi{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color:  #513B1C;
+  font-family: Papyrus,fantasy;
+}
+.h3class{
+  color: #F62817;
+  padding-bottom: 10px;
+}
+.h3_0class{
+  color: #006400;
+}
+.intro{
+  width: 50%;
+  line-height: 1.5;
+  margin: auto;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 7%;
+  margin: 50px auto;
+  color: #C0C0C0;
+}
+.top-container{
+  background-color: #E6E6FA;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+
+}
+.bottom-container{
+  background-color: #a9bcc9;
+  padding: 50px 0 20px;
+
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+  line-height: 1.5;
+}
+.top-cloud{
+  height: 100px;
+  width: 350px;
+  position: absolute;
+  right: 60px;
+  bottom: 600px;
+}
+.bottom-cloud{
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  left: 150px;
+}
+
+a{
+  color: #591350;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #91187f;
+}
+
+.skill1{
+  float: left;
+  margin-right: 30px;
+  width: 30%;
+}
+
+.skill2{
+  float: right;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.skill-row{
+  width: 65%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.cright{
+  color: white;
+  font-size: 80%;
+}
+.last_para{
+  margin-bottom: 50px;
+}
+
+.btn {
+  background: #87cff0;
+  background-image: -webkit-linear-gradient(top, #87cff0, #0a4569);
+  background-image: -moz-linear-gradient(top, #87cff0, #0a4569);
+  background-image: -ms-linear-gradient(top, #87cff0, #0a4569);
+  background-image: -o-linear-gradient(top, #87cff0, #0a4569);
+  background-image: linear-gradient(to bottom, #87cff0, #0a4569);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d2bbed;
+  background-image: -webkit-linear-gradient(top, #d2bbed, #45061d);
+  background-image: -moz-linear-gradient(top, #d2bbed, #45061d);
+  background-image: -ms-linear-gradient(top, #d2bbed, #45061d);
+  background-image: -o-linear-gradient(top, #d2bbed, #45061d);
+  background-image: linear-gradient(to bottom, #d2bbed, #45061d);
+  text-decoration: none;
+}
